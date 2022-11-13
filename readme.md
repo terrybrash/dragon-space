@@ -1,6 +1,6 @@
 # Dragon Spatial Indexing Structures
 
-This repository is a mirror of [these StackOverflow answers](https://stackoverflow.com/questions/41946007/efficient-and-well-explained-implementation-of-a-quadtree-for-2d-collision-det) posted a user (now deleted) named "Dragon Energy".
+This repository is a mirror of [these StackOverflow answers](https://stackoverflow.com/questions/41946007/efficient-and-well-explained-implementation-of-a-quadtree-for-2d-collision-det) posted by a user (now deleted) named "Dragon Energy".
 
 Dragon Energy posted an incredbile braindump of the spatial indexing data structures he's seen/used. He explains the performance characteristics of these data structures, when you'd use them, how to optimize them for CPU caches, and gives multiple implementations.
 
