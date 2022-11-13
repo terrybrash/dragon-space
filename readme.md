@@ -641,9 +641,11 @@ We could eliminate that completely by storing a whole separate node list for eve
 
 Finally, this enables more opportunities to parallelize insertion/removal/access, since you can guarantee that it's safe provided no two threads are modifying/accessing the same row at one time (something that is often quite easy to ensure).
 
-## 3. Portable C Implementation
+## 3. Other Implementations
 
-[Full implementation here.](grid-loose.c)
+[Full C implementation here.](grid-loose.c)
+
+[Full Java implementation here.](grid-loose.java)
 
 So I spent some time thinking about an efficient implementation that's almost universally applicable (an exception would be functional languages). So I ended up porting my quadtree to C in a way such that all it needs are arrays of `int` to store everything.
 
